@@ -20,6 +20,21 @@ asta = Client("asta", session_string = PYRO_CODE )          #[]
 
 
 
+@asta.on_message(filters.text,group=313)
+async def copy_text(clover, message):
+    m = message.text
+    if message.from_user.id in idtr :
+     if m=="الاوامر": 
+       await message.edit_text(f"""**
+       
+↓↓↓ الاوامر  ↓↓↓
+
+تفعيل ~ تعطيل:  الارقام
+تفعيل ~ تعطيل:  الكلمات
+تفعيل ~ تعطيل:  التفكيك
+تفعيل ~ تعطيل:  التركيب  
+         
+       **""") 
 
 
 
