@@ -1,0 +1,21 @@
+{
+    "name": "THE CLOVER",
+    "description": " ASTA CLOVER ",
+    "stack": "container",
+    "env": {
+        "PYROC": {
+            "description": " Code Pyrogram ",
+            "value": ""
+        },
+        "IDV": {
+            "description": "id the owner ",
+            "value": "",
+            "required": true
+        },
+        "astac": {
+            "description": " اللهم صل على محمد وال محمد ",
+            "value": " لا تضع شي هنا ",
+            "required": false
+        }
+    }
+}
